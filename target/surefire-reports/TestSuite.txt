@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.126 sec <<< FAILURE! - in TestSuite
+bankManagerLoginTest(com.w2a.testcases.BankManagerLoginTest)  Time elapsed: 3.496 sec  <<< FAILURE!
+java.lang.AssertionError: expected [b] but found [a]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.w2a.testcases.BankManagerLoginTest.bankManagerLoginTest(BankManagerLoginTest.java:34)
+
